@@ -855,7 +855,11 @@ a:focus {
 .social{
   list-style: none; 
 }
-
-
+.custom-swal-popup {
+  z-index: 1050 !important; /* Increase the z-index */
+}
+.navbar {
+  z-index: 999; /* Lower this value if it's too high */
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
